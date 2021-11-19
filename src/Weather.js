@@ -153,7 +153,7 @@ export default function Weather() {
 
         <footer>
           <a
-            href="https://github.com/jagodasad/Weather-App"
+            href="https://github.com/jagodasad/weather-react"
             target="_blank"
             class="created-by"
           >
