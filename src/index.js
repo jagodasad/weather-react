@@ -8,7 +8,7 @@ import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Weather />
+    <Weather defaultCity="Los Angeles" />
   </React.StrictMode>,
   document.getElementById("root")
 );
