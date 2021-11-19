@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import "./Weather.css";
 import "./App.css";
+import background from "./images/background.mp4";
 
 export default function Weather(props) {
   const [weatherData, setWeatherData] = useState({ ready: false });
@@ -38,8 +39,8 @@ export default function Weather(props) {
   if (weatherData.ready) {
     return (
       <div className="Weather">
-        <video autoplay="" muted="" loop="" id="myVideo">
-          <source src="src/images/background.mp4" type="video/mp4" />
+        <video className="videoTag" autoPlay loop muted id="myVideo">
+          <source src={background} type="video/mp4" />
         </video>
         <div className="container">
           <div className="outer-box-frame">
