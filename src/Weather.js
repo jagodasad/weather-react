@@ -156,6 +156,7 @@ export default function Weather() {
             href="https://github.com/jagodasad/weather-react"
             target="_blank"
             class="created-by"
+            rel="noreferrer"
           >
             Open-source code
           </a>{" "}
@@ -164,6 +165,7 @@ export default function Weather() {
             <a
               href="https://www.linkedin.com/in/jagoda-sadowska-5352bb9b"
               target="_blank"
+              rel="noreferrer"
             >
               Jagoda Sadowska
             </a>
