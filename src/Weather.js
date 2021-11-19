@@ -28,6 +28,7 @@ export default function Weather() {
                   placeholder="Enter a city...🔍"
                   className="enter-city"
                   autoComplete="off"
+                  autoFocus="on"
                 />
               </div>
               <div className="col-2">
@@ -68,7 +69,7 @@ export default function Weather() {
                   {weatherData.temperature}
                 </span>
                 <span className="units">
-                  <a href="/" class="active">
+                  <a href="/" className="active">
                     °C
                   </a>{" "}
                   | <a href="/">°F</a>

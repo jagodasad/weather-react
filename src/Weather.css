@@ -28,11 +28,11 @@
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-.Weather .c-temp,
-.f-temp {
-  font-size: 25px;
+.Weather .units {
+  font-size: 20px;
   position: relative;
   top: -7px;
+  text-decoration: none;
 }
 
 .Weather .enter-city,
@@ -60,6 +60,7 @@
 .Weather .weather .active {
   color: rgb(33, 33, 33);
   cursor: default;
+  text-decoration: none;
 }
 .Weather .weather .active:hover {
   text-decoration: none;
