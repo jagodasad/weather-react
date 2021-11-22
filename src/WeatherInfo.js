@@ -25,11 +25,13 @@ export default function WeatherInfo(props) {
             </h3>
           </div>
           <div className="col-6">
-            <br /> <br />
-            <div className="float-right">
+            <div className="weatherTemp">
+              <br /> <br />
               <WeatherIcon code={props.data.icon} />
+              <WeatherTemperature
+                celsius={Math.round(props.data.temperature)}
+              />
             </div>
-            <WeatherTemperature celsius={Math.round(props.data.temperature)} />
           </div>
         </div>
       </div>

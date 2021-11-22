@@ -6,14 +6,6 @@
   min-width: 100%;
   min-height: 100vh;
 }
-h1 {
-  font-family: "Roboto slab", Helvetica, Arial, sans-serif;
-  font-weight: 500;
-}
-h2,
-h3 {
-  font-size: 20px;
-}
 
 footer {
   text-align: center;
@@ -24,8 +16,4 @@ footer {
   padding: 4px;
   font-family: "Roboto slab", Helvetica, Arial, sans-serif;
   font-weight: 400;
-}
-a {
-  color: #004ab7;
-  text-decoration: none;
 }
