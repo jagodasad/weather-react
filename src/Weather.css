@@ -6,6 +6,10 @@ h2,
 h3 {
   font-size: 20px;
 }
+a {
+  color: #004ab7;
+  text-decoration: none;
+}
 .Weather .container {
   position: relative;
   font-family: "Hahmlet", serif;
@@ -54,31 +58,4 @@ h3 {
 .Weather .enter-city {
   border: 2px solid black;
   border-radius: 20px;
-}
-
-.Weather .weather-forecast {
-  margin-top: 100px;
-  margin-bottom: 90px;
-  margin-right: 20px;
-  color: rgb(15, 16, 18);
-  font-weight: bold;
-  text-align: center;
-}
-
-.Weather .weather .active {
-  color: rgb(33, 33, 33);
-  cursor: default;
-  text-decoration: none;
-}
-.Weather .weather .active:hover {
-  text-decoration: none;
-}
-.Weather .weather-forecast-temp-max,
-.weather-forecast-temp-min {
-  font-size: 15px;
-  opacity: 0.7;
-}
-a {
-  color: #004ab7;
-  text-decoration: none;
 }

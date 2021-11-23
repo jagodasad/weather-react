@@ -4,6 +4,7 @@ import "./Weather.css";
 import WeatherInfo from "./WeatherInfo";
 import "./App.css";
 import background from "./images/background.mp4";
+import WeatherForecast from "./WeatherForecast";
 
 export default function Weather(props) {
   const [weatherData, setWeatherData] = useState({ ready: false });
@@ -71,6 +72,7 @@ export default function Weather(props) {
               </div>
             </form>
             <WeatherInfo data={weatherData} />
+            <WeatherForecast coordinates={weatherData.coordinates} />
           </div>
         </div>
       </div>

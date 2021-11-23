@@ -27,7 +27,7 @@ export default function WeatherInfo(props) {
           <div className="col-6">
             <div className="weatherTemp">
               <br /> <br />
-              <WeatherIcon code={props.data.icon} />
+              <WeatherIcon code={props.data.icon} size={74} />
               <WeatherTemperature
                 celsius={Math.round(props.data.temperature)}
               />
@@ -35,104 +35,6 @@ export default function WeatherInfo(props) {
           </div>
         </div>
       </div>
-      <div className="weather-forecast">
-        <div className="row">
-          <div className="col-2">
-            <div className="weather-forecast-date">Fri </div>
-
-            <br />
-            <img
-              src="http://openweathermap.org/img/wn/04d@2x.png"
-              alt=""
-              width="70"
-            />
-            <span className="weather-forecast-temp-max">21°/</span>
-            <span className="weather-forecast-temp-min">14°</span>
-          </div>
-          <div className="col-2">
-            <div className="weather-forecast-date">Sat </div>
-
-            <br />
-            <img
-              src="http://openweathermap.org/img/wn/04d@2x.png"
-              alt=""
-              width="70"
-            />
-            <span className="weather-forecast-temp-max">22°/</span>
-            <span className="weather-forecast-temp-min">16°</span>
-          </div>
-          <div className="col-2">
-            <div className="weather-forecast-date">Sun </div>
-
-            <br />
-            <img
-              src="http://openweathermap.org/img/wn/01d@2x.png"
-              alt=""
-              width="70"
-            />
-            <span className="weather-forecast-temp-max">27°/</span>
-            <span className="weather-forecast-temp-min">18°</span>
-          </div>
-          <div className="col-2">
-            <div className="weather-forecast-date">Mon </div>
-
-            <br />
-            <img
-              src="http://openweathermap.org/img/wn/04d@2x.png"
-              alt=""
-              width="70"
-            />
-            <span className="weather-forecast-temp-max">24°/</span>
-            <span className="weather-forecast-temp-min">18°</span>
-          </div>
-          <div className="col-2">
-            <div className="weather-forecast-date">Tue </div>
-
-            <br />
-            <img
-              src="http://openweathermap.org/img/wn/01d@2x.png"
-              alt=""
-              width="70"
-            />
-            <span className="weather-forecast-temp-max">20°/</span>
-            <span className="weather-forecast-temp-min">16°</span>
-          </div>
-          <div className="col-2">
-            <div className="weather-forecast-date">Wed </div>
-
-            <br />
-            <img
-              src="http://openweathermap.org/img/wn/01d@2x.png"
-              alt=""
-              width="70"
-            />
-            <span className="weather-forecast-temp-max">20°/</span>
-            <span className="weather-forecast-temp-min">14°</span>
-          </div>
-        </div>
-      </div>
-      <br />
-      <br />
-      <footer>
-        <a
-          href="https://github.com/jagodasad/weather-react"
-          target="_blank"
-          class="created-by"
-          rel="noreferrer"
-        >
-          Open-source code
-        </a>{" "}
-        This project was coded by{" "}
-        <strong>
-          <a
-            href="https://www.linkedin.com/in/jagoda-sadowska-5352bb9b"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Jagoda Sadowska
-          </a>
-        </strong>
-      </footer>
     </div>
   );
 }

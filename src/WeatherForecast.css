@@ -1,0 +1,16 @@
+.Weather .weather-forecast {
+  margin-top: 100px;
+  margin-bottom: 90px;
+  margin-right: 20px;
+  color: rgb(15, 16, 18);
+  font-weight: bold;
+  text-align: center;
+}
+.Weather .weather-forecast-temp-max,
+.weather-forecast-temp-min {
+  font-size: 15px;
+}
+
+.Weather .weather-forecast-temp-min {
+  opacity: 0.6;
+}
