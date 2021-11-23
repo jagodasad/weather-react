@@ -39,7 +39,7 @@ export default function Weather(props) {
     axios.get(apiUrl).then(handleResponse);
   }
 
-  function findLocation(position) {
+  function currentLocation(position) {
     const apiKey = "92ddd27963ffa8ab80ec517f4c65be70";
     let latitude = position.coords.latitude;
     let longitude = position.coords.longitude;
@@ -48,7 +48,8 @@ export default function Weather(props) {
   }
 
   function getCurrentLocation(event) {
-    navigator.geolocation.getCurrentPosition(findLocation);
+    event.preventDefault();
+    navigator.geolocation.getCurrentPosition(currentLocation);
   }
 
   if (weatherData.ready) {
