@@ -28,6 +28,8 @@ export default function WeatherForecast(props) {
                     <WeatherForecastDay data={dailyForecast} />
                   </div>
                 );
+              } else {
+                return null;
               }
             })}
           </div>
@@ -38,7 +40,7 @@ export default function WeatherForecast(props) {
           <a
             href="https://github.com/jagodasad/weather-react"
             target="_blank"
-            class="created-by"
+            className="created-by"
             rel="noreferrer"
           >
             Open-source code
