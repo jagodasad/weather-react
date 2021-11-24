@@ -62,7 +62,7 @@ export default function Weather(props) {
           <div className="outer-box-frame">
             <form onSubmit={handleSubmit} className="row">
               <div className="row">
-                <div className="col-6">
+                <div className="col-sm-6">
                   <input
                     type="search"
                     placeholder="Enter a city...🔍"

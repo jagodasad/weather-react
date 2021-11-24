@@ -2,7 +2,7 @@
   position: absolute;
 
   right: 0;
-  bottom: 0;
+  bottom: -200px;
   min-width: 100%;
   min-height: 100vh;
 }
@@ -16,4 +16,14 @@ footer {
   padding: 4px;
   font-family: "Roboto slab", Helvetica, Arial, sans-serif;
   font-weight: 400;
+}
+@media (max-width: 576px) {
+  #myVideo {
+    position: absolute;
+
+    right: 0;
+    bottom: -50px;
+    min-width: 100%;
+    min-height: 100vh;
+  }
 }
